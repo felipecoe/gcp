@@ -7,7 +7,7 @@ provider "google" {
 # Where the state is stored
 terraform {
   backend "gcs" {
-    bucket = local.terraform-state-bucket
+    bucket = "native-felipecoe-test2-bucket-us-central"
     prefix = "terraform/state"
   }
 }

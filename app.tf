@@ -8,11 +8,5 @@ module "app_uscentral" {
   project_id = local.project-id
   location = local.location
   region = local.region
+  app_bucket_name = local.app_bucket_name
 }
-
-#module "app_useast" {
-#source = "./modules/app/"
-#project_id = local.project-id
-#location = "us-east1"
-#region = "us-east1"
-#}

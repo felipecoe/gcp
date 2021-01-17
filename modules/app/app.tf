@@ -38,7 +38,7 @@ resource "google_app_engine_standard_app_version" "hello" {
 
 resource "google_storage_bucket" "bucket" {
   project = var.project_id
-  name = "nandi-felipecoe-hello-${var.location}"
+  name = var.app_bucket_name
   location = var.region
 }
 

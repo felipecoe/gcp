@@ -1,6 +1,6 @@
 locals {
-  project-id = "native-felipecoe"
-  terraform-state-bucket = "native-felipecoe-tf-state"
+  project-id = "native-felipecoe-test2"
   region     = "us-central1"
   location   = "us-central"
+  app_bucket_name = "native-felipecoe-test2-app" 
 }
